@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: ProductionTool
+com:
+  ed:
+    application:
+      system:
+        config:
+          windowsForwardSlash: "\\"
+          linuxBackwardSlash: "/"
+          windowsCmd: "cmd.exe"
+          linuxSh: "bash"
+          projectName: "OISAPI"
+          projectDirPrefix: "/Users/chenhuangkai/Documents/tpi-project/"
+          targetPath: "/Users/chenhuangkai/Desktop/test/dest/"
+          shellDir: "/Users/chenhuangkai/Documents/tpi-project/ProductionTool/src/main/resources/shell/"
+          gitDiffShellFileName: ProduceGitDiffFile.sh
+          defaultBranchName: 正式機版本
+          diffFilename: diff.txt
+          changeStatisticalFilename: change.txt
+          jarName: ois.jar
+          shellFullPathOfProduceGitDiffFile: ${com.ed.application.system.config.shellDir}${com.ed.application.system.config.gitDiffShellFileName}
