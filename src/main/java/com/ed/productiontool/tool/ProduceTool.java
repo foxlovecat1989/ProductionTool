@@ -112,7 +112,7 @@ public class ProduceTool {
             throw new IllegalStateException(errorMsg);
         }
 
-        new File(targetFullPath).setLastModified(new Date().getTime());
+        new File(targetPath).setLastModified(new Date().getTime());
 
         return targetPath;
     }
