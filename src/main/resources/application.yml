@@ -8,7 +8,7 @@ com:
         config:
           windowsForwardSlash: "\\"
           linuxBackwardSlash: "/"
-          windowsCmd: "cmd.exe"
+          windowsCmd: "C:\\Program Files\\Git\\git-bash.exe"
           linuxSh: "bash"
           projectName: "OISAPI"
           projectDirPrefix: "/Users/chenhuangkai/Documents/tpi-project/"
